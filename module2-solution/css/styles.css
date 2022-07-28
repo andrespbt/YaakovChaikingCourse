@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4.16%;
+    margin-bottom: 4.16%;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+
+.container {
+    margin: 0 4.16%;
+    display: flex;
+    flex-direction: column;
+    gap: 6%;
+}
+
+.article {
+    width: 100%;
+    background-color: #24AB69;
+    border: #000000 1px solid;
+    padding: 1rem;
+    position: relative;
+    margin-bottom: 4.16%;
+}
+
+article p {
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.article-title {
+    width: 9.37rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    border: #000000 1px solid;
+    border-top: none;
+    border-right: none;
+    font-size: 1.25rem;
+}
+
+.chicken-title {
+    background-color: #BDB322;
+    height: fit-content;
+}
+
+.beef-title {
+    color: #1D2C1E;
+    background-color: #0CDAEC;
+}
+
+.sushi-title {
+    color: #F2FF00;
+    background-color: #AA00F8;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sushi {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .beef , .chicken {
+        width: 47%;
+    }
+
+    .article {
+        margin-bottom: 0;
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 992px){
+
+    .container {
+        flex-direction: row;
+        gap: 4.16%;
+    }
+
+    .article {
+        margin: 0;
+    }
+
+}
+
