@@ -1,0 +1,141 @@
+/* Desktop mockup illustration should correspond to Bootstrap md-based classes */
+
+/* Tablet mockup illustration should correspond to Bootstrap sm-based classes */
+
+/* Mobile mockup illustration should correspond to Bootstrap xs-based classes */
+
+header nav {
+    background-color: #264653;
+    padding: 0;
+}
+
+nav.navbar {
+    padding: 0;
+}
+
+div.container-fluid {
+    padding: 0;
+}
+h1 {
+    margin: 1rem 0 1rem 1rem;
+    color: white;
+}
+
+button.navbar-toggler {
+    margin: 1rem 1rem 1rem 0;
+    color: white;
+}
+
+#hamburger {
+    width: 100%;
+    height: 100%;
+}
+
+span.navbar-toggler-icon {
+    color: white;
+}
+
+a.nav-link {
+    border-bottom: 1px solid black;
+    height: 2.5rem;
+    margin: 0;
+    color: white;
+    font-size: 1.1rem;
+    padding-top: 5px;
+}
+
+div.col {
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+    height: 100%;
+    background-color: #2a9d8f;
+}
+body {
+    background-color: #e9c46a;
+    font-size: 1rem;
+}
+
+h2 {
+    text-align: center;
+    background-color: #e9c46a;
+    border: none;
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+article {
+    background-color: #f4a261;
+    margin: 3rem 0;
+}
+
+div.row {
+    margin: 1rem;
+}
+
+
+
+@media (min-width: 576px) and (max-width:767px) {
+    header nav .navbar-toggler {
+        display:none;
+    }
+
+    div.row {
+        justify-content: space-evenly;
+        margin: 0;
+    }
+    
+    h2 {
+        margin-bottom: 5rem;
+        margin-top: 3rem;
+    }
+    
+    section.container-fluid {
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 768px) {
+    header nav .navbar-toggler {
+        display:none;
+    }
+
+    div.collapse {
+        display: none;
+    }
+
+    div.row {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    section.container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+
+    .col-md-3 {
+        margin: 2rem auto;
+        width: 30%;
+        position: relative;
+
+    }
+
+    article p {
+        margin-bottom: 1rem;
+    }
+
+    #end-p {
+        position: absolute;
+        bottom: 1px;
+    }
+
+}
