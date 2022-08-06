@@ -83,6 +83,9 @@ div.row {
     header nav .navbar-toggler {
         display:none;
     }
+    div.collapse {
+        display: none;
+    }
 
     div.row {
         justify-content: space-evenly;
